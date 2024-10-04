@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/noiteestrelada.jpg);
+  --bg-url: url(./assets/fundoescuro3.jpg);
   --stroke-color: black;
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -15,12 +15,12 @@
 }
 
 .light {
-  --text-color: black;
-  --bg-url: url(./assets/cervos.jpg);
+  --text-color: white;
+  --bg-url: url(./assets/fundoclaro2.jpg);
   --stroke-color: black;
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(0, 0, 0, 0.1);
+  --highlight-color: rgba(0, 0, 0, 0.5);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
@@ -78,7 +78,7 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.2s;
+  animation: slide-back 0.5s;
 }
 
 .light #switch button {
@@ -170,11 +170,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/noiteestrelada.jpg);
+    --bg-url: url(./assets/fundoescuro3.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/cervos.jpg);
+    --bg-url: url(./assets/fundoclaro2.jpg);
   }
 }
 
